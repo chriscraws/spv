@@ -11,8 +11,7 @@ PARSER:
 
 TRANSLATOR: 
   ConstRules: 
-    decl: expand
-    enum: evalFull
+    defines: expand
   Rules: 
     global: 
       - {action: accept, from: "^Spv"}
