@@ -1,8 +1,8 @@
 all:
-	c-for-go -nocgo -out .. spirv.yml
+	c-for-go -nocgo spirv.yml && c-for-go -nocgo glsl.yml
 
 clean:
-	rm -f doc.go types.go const.go
+	rm -rf spirv glsl
 
 test:
 	go build

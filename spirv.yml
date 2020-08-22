@@ -7,7 +7,7 @@ GENERATOR:
 
 PARSER: 
   IncludePaths: [/usr/include]
-  SourcesPaths: [spirv.h]
+  SourcesPaths: [spirv.h, GLSL.std.450.h]
 
 TRANSLATOR: 
   ConstRules: 
